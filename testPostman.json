@@ -1,0 +1,33 @@
+{
+    "anonymousPassengerSpecifications": [
+        {
+            "externalRef": "passenger-1",
+            "age": 70,
+            "type": "PERSON",
+            "cards": [
+                {
+                    "code": "code_carte_mocked"
+                }
+            ]
+        }
+    ],
+    "offerSearchCriteria": {
+        "productId": "bb72bc62-120a-3564-85ce-8d6428f67a35"
+    },
+    "requestedFulfillmentOptions": [
+        {
+            "type": "ETICKET"
+        }
+    ],
+    "tripSearchCriteria": {
+         "origin": {
+            "objectType": "STOP_PLACE",
+            "id": "urn:uic:stn:5406"
+        },
+        "destination": {
+            "objectType": "STOP_PLACE",
+            "id": "urn:uic:stn:699900"
+        },
+        "departureTime": "2025-03-28T07:30:00Z"
+    }
+}
