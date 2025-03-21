@@ -24,9 +24,11 @@
             ]
         }
     ],
-    "offerSearchCriteria": {
-        "productId": "bb72bc62-120a-3564-85ce-8d6428f67a35"
-    },
+    "offerSearchCriteria": [
+	{
+        	"productId": "bb72bc62-120a-3564-85ce-8d6428f67a35"
+    	}
+    ],
     "requestedFulfillmentOptions": [
         {
             "type": "ETICKET"
