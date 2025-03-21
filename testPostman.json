@@ -1,4 +1,17 @@
 {
+     "scenarios": [
+        {
+			"loggingType": "INFO",
+            "code": "OTST_TS_OB_RFND",
+            "osdmVersion": "4",
+            "desiredType": "ADMISSION",
+            "currency": "EUR",
+            "refundOverruleCode": "DISRUPTION",
+            "tripRequirementId": 1,
+            "passengersListId": 1,
+            "desiredFlexibility": "SEMI_FLEXIBLE"
+        }
+    ],
     "anonymousPassengerSpecifications": [
         {
             "externalRef": "passenger-1",
